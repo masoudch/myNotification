@@ -20,17 +20,6 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="53dp" />
 
-    <Button
-        style="@style/myblue"
-        android:id="@+id/button"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="34dp"
-        android:onClick="clickfornotifyIcon"
-        android:text="notify icon"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:width="80dp" />
-
     <EditText
         style="@style/myblue"
         android:id="@+id/editText1"
@@ -60,5 +49,16 @@
         android:layout_alignEnd="@+id/editText1"
         android:id="@+id/button3"
         android:onClick="btnLoadme"/>
+
+    <Button
+        style="@style/myblue"
+        android:id="@+id/button"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:onClick="clickfornotifyIcon"
+        android:text="notify icon"
+        android:width="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>
